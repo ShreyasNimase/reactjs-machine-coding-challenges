@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 5px solid grey;
+    background-color: aliceblue;
+    width: 150px;
+}
+
+.signal div {
+    margin: 5px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.btn button {
+    margin: 10px;
+}
