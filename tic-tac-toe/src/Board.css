@@ -1,0 +1,23 @@
+.cell {
+    height:70px;
+    width: 70px;
+    border:1px solid black;
+    background-color:beige;
+    color:red;
+    font-size:x-large
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.reset-btn button{
+    background-color:rgba(246, 255, 124, 0.514);
+    border: 1px solid black;
+}
+
+.reset-btn button:hover{
+    background-color:rgb(246, 255, 124); 
+    border:1px solid blue;
+} 
